@@ -1,0 +1,100 @@
+body
+{
+    padding : 0px;
+    margin : 0px;
+    overflow : hidden;
+}
+
+.contents
+{
+    display : block;
+    align-items : center;
+    text-align : center;
+    justify-content : center;
+    position : absolute;
+    top : 75%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+}
+
+.back
+{
+    position : absolute;
+    top : 0%;
+    left : 0%;
+    font-size : 32px;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color : black;
+    color : white;
+    padding-left : 20px;
+    padding-right : 20px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    border-radius : 20px;
+}
+
+.background
+{
+    height : 100vh;
+    width : 100vw;
+}
+
+.chooseplayer
+{
+    display : inline-flex;
+}
+
+.chooseplayer .spacer
+{
+    width : 20px;
+}
+
+.chooseplayer .player
+{
+    display : block;
+    text-align : center;
+    justify-content : center;
+    align-items : center;
+}
+
+.chooseplayer .player input
+{
+    border-radius : 10px;
+    border : 4px solid black;
+    background-color : white;
+    color : black;
+    font-size : 24px;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding : 5px;
+}
+
+.chooseplayer .player button
+{
+    text-align : center;
+    background-color : black;
+    color : white;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size : 24px;
+    padding-left : 35px;
+    padding-right : 35px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    border-radius : 20px;
+}
+
+.togglePlayer
+{
+    display : inline-flex;
+    text-align : center;
+    justify-content : center;
+    align-items : center;
+}
+
+.togglePlayer button
+{
+    font-size : 32px;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius : 10px;
+    background-color : black;
+    color : white;
+}

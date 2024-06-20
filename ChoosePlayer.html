@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>
+            Choose Player
+        </title>
+        <Link rel = "stylesheet" type = "text/css" href = "ChoosePlayer.css" />
+    </head>
+    <body>
+        <img class = "background" src = "Resources/Background.png" />
+        <button class = "back" onclick = "loadHome()" >Go Back</button>
+        <div class = "contents"> 
+            <div class = "chooseplayer">
+                <div class = "player">
+                    <input id = "name_01" type = "text" name = "name_01" onchange = "changeName_01()" />
+                    <br/><br/>
+                    <button onclick = "saveGame()" >Save</button>
+                </div>
+                <div class = "spacer"></div>
+                <div class = "player">
+                    <input id = "name_02" type = "text" name = "name_02" onchange = "changeName_02()" />
+                    <br/><br/>
+                    <button onclick = "saveGame()" >Save</button>
+                </div>
+                <div class = "spacer"></div>
+                <div class = "player">
+                    <input id = "name_03" type = "text" name = "name_03" onchange = "changeName_03()" />
+                    <br/><br/>
+                    <button onclick = "saveGame()" >Save</button>
+                </div>
+                <div class = "spacer"></div>
+                <div class = "player">
+                    <input id = "name_04" type = "text" name = "name_04" onchange = "changeName_04()" />
+                    <br/><br/>
+                    <button onclick = "saveGame()" >Save</button>
+                </div>
+                <div class = "spacer"></div>
+                <div class = "player">
+                    <input id = "name_05" type = "text" name = "name_05" onchange = "changeName_05()" />
+                    <br/><br/>
+                    <button onclick = "saveGame()" >Save</button>
+                </div>
+            </div>
+            <br/><br/><br/>
+            <div class = "togglePlayer">
+                <button onclick = "moveLeft()" >&lt</button>
+                <h1 id = "currentPlayer" ></h1>
+                <button onclick = "moveRight()" >&gt</button>
+            </div>
+        </div>
+        <script src = "ChoosePlayer.js"></script>
+    </body>
+</html>

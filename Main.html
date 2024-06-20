@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>
+            Last Stand
+        </title>
+        <Link rel = "stylesheet" type = "text/css" href = "Main.css"/>
+    </head>
+    <body>
+        <canvas id = "canvas" height = "750" width = "1500" style = "border:2px solid black;">
+            <img src = "Resources/Zombie Walk 01.png" alt = "err" id = "Zombie_01" />
+            <img src = "Resources/Zombie Walk 02.png" alt = "err" id = "Zombie_02" />
+            <img src = "Resources/Zombie Die 01.png" alt = "err" id = "Zombie_03" />
+            <img src = "Resources/Zombie Attack 01.png" alt = "err" id = "Zombie_04" />
+            <img src = "Resources/Zombie Attack 02.png" alt = "err" id = "Zombie_05" />
+        </canvas>
+        <div class = "controls" >
+            <h1 class = "score" id = "score" ></h1>
+            <img class = "pauseplay" id = "pauseplay" src = "Resources/Pause.png" onclick = "togglePausePlay()" />
+            <h1 class = "swap" id = "swap" onclick = "swapweapon()" >Swap Weapon</h1>
+        </div>
+        <script src = "Main.js"></script>
+    </body>
+</html>

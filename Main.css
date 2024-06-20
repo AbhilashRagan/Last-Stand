@@ -1,0 +1,52 @@
+#canvas
+{
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+}
+
+.controls
+{
+    display : inline-flex;
+    position : absolute;
+    top : 10%;
+    left : 80%;
+    transform : translate(-50%, -50%);
+    align-items : center;
+    text-align : left;
+    justify-content : center;
+}
+
+.score
+{
+    padding-left : 35px;
+    padding-right : 35px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size : 32px;
+    background-color : black;
+    color : white;
+    border-radius : 20px;
+}
+
+.swap
+{
+    padding-left : 25px;
+    padding-right : 25px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size : 24px;
+    background-color : black;
+    color : white;
+    border-radius : 20px;
+    text-wrap : nowrap;
+}
+
+.pauseplay
+{
+    height : 42px;
+    width : auto;
+}

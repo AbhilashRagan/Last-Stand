@@ -1,0 +1,63 @@
+body
+{
+    overflow : hidden;
+    margin : 0px;
+    padding : 0px;
+}
+
+.background
+{
+    height : 100vh;
+    width : 100vw;
+}
+
+.buttons
+{
+    position : absolute;
+    top : 70%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+    display : inline-flex;
+    align-items : center;
+    justify-content : center;
+    text-align : center;
+}
+
+.buttons .play
+{
+    font-size : 48px;
+    background : black;
+    color : white;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left : 35px;
+    padding-right : 35px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    border-radius : 20px;
+}
+
+.buttons .leaderboard
+{
+    font-size : 40px;
+    background : black;
+    color : white;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left : 35px;
+    padding-right : 35px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    border-radius : 20px;
+}
+
+.buttons .chooseplayer
+{
+    font-size : 32px;
+    background : black;
+    color : white;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left : 35px;
+    padding-right : 35px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    border-radius : 20px;
+}

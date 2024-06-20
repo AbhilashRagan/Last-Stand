@@ -1,0 +1,68 @@
+body
+{
+    overflow : hidden;
+    padding : 0px;
+    margin : 0px;
+}
+
+.background
+{
+    height : 100vh;
+    width : 100vw;
+}
+
+.back
+{
+    position : absolute;
+    top : 0%;
+    left : 0%;
+    font-size : 32px;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color : black;
+    color : white;
+    padding-left : 20px;
+    padding-right : 20px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    border-radius : 20px;
+}
+
+.players
+{
+    display : block;
+    position : absolute;
+    top : 80%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+    width : 50vw;
+    height : auto;
+}
+
+.players .row
+{
+    color : white;
+    display : inline-flex;
+    width : 100%;
+    height : auto;
+}
+
+.players .row .playername
+{
+    width : 60%;
+}
+
+.players .row .score
+{
+    width : 30%;
+}
+
+.players .row h1
+{
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size : 20px;
+    text-align : left;
+    border : 1px solid white;
+    border-radius : 10px;
+    background : black;
+    padding : 5px;
+}
